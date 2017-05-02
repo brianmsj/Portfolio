@@ -1,0 +1,39 @@
+html {
+  background-color: grey;
+  display: flex;
+  color: white;
+}
+
+.name,.intro,.ama,.job-title,.location {
+  text-align: center;
+  color: white;
+}
+.name {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+.top-intro{
+  background-color: black;
+  opacity: 0.7;
+}
+.intro {
+  margin-bottom: 10px;
+}
+}
+.location {
+  font-size: 14px
+}
+.job-title,.name {
+  font-size: 40px;
+}
+.intro,.ama,.location{
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+}
+.ama {
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+.job-title {
+  margin-top: 10px;
+}
