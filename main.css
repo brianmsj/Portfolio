@@ -9,6 +9,9 @@ html {
 html:focus {
     outline:none;
 }
+body {
+  margin: auto;
+}
 .name,.intro,.ama,.job-title,.location {
   text-align: center;
   color: white;
@@ -21,7 +24,7 @@ html:focus {
 .top-intro{
   background-color: black;
   opacity: 0.8;
-  height: 1100px;
+  height: 1050px;
   display: flex;
   flex-direction: column;
 
@@ -37,9 +40,15 @@ html:focus {
 .location {
   font-size: 14px
 }
-.job-title,.name {
+.job-title,.name,.aboutme-title {
   font-size: 70px;
   font-family: 'Roboto', sans-serif;
+}
+.aboutme-title {
+  color: #d4fd02;
+}
+span {
+  color: #d4fd02;
 }
 .intro,.ama,.location{
   font-family: 'Inconsolata', monospace;
@@ -106,18 +115,30 @@ a:link {
   cursor: pointer;
 }
 .about-me-framework {
-  background-color: grey;
+  background-color: black;
   height: 1000px;
+  opacity: 0.8;
+  color: white;
+  width: 1400px;
 }
 .about {
+  font-size: 26px;
+  font-family: 'Inconsolata', monospace;
+}
+.aboutme-container {
   text-align: center;
 }
 .technologies {
   display: block;
+  max-width: 1000px;
+  margin: auto;
 }
 .language {
   display: inline-block;
 }
 .item {
   display: inline-block;
+}
+.skills-title {
+  text-align: center;
 }
