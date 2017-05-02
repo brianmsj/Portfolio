@@ -114,7 +114,7 @@ a:link {
   opacity: 0.40;
   cursor: pointer;
 }
-.about-me-framework {
+.about-me-framework,.project-container {
   background-color: black;
   height: 1000px;
   opacity: 0.8;
