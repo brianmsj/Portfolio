@@ -11,6 +11,7 @@ html:focus {
 }
 body {
   margin: auto;
+  max-width: 80%
 }
 .name,.intro,.ama,.job-title,.location {
   text-align: center;
@@ -114,31 +115,69 @@ a:link {
   opacity: 0.40;
   cursor: pointer;
 }
-.about-me-framework,.project-container {
+.about-me-framework{
   background-color: black;
-  height: 1000px;
+  height: 1250px;
   opacity: 0.8;
   color: white;
-  width: 1400px;
+
+}
+.project-container {
+background-color: black;
+height: 1000px;
+margin-top: 100px;
+opacity: 0.8;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
 }
 .about {
-  font-size: 26px;
+  font-size: 34px;
   font-family: 'Inconsolata', monospace;
+  text-align: left;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 .aboutme-container {
   text-align: center;
 }
 .technologies {
   display: block;
-  max-width: 1000px;
-  margin: auto;
+  text-align: center;
+  opacity: 1;
+
 }
 .language {
   display: inline-block;
+  height: 207.438px;
+  width: 512px;
+}
+ .skills-title {
+  color: #d4fd02;
+  font-size: 34px;
+  font-family: 'Inconsolata', monospace;
+
 }
 .item {
   display: inline-block;
 }
 .skills-title {
   text-align: center;
+}
+.project-item {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.project-screenshot {
+  opacity: 1;
+}
+.definitions {
+  padding-left:0;
+  text-align: center;
+}
+.aboutme-title {
+  padding-top: 70px;
 }
