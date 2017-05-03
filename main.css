@@ -44,6 +44,7 @@ body {
 .job-title,.name,.aboutme-title {
   font-size: 70px;
   font-family: 'Roboto', sans-serif;
+  font-style:oblique;
 }
 .aboutme-title {
   color: #d4fd02;
@@ -53,7 +54,7 @@ span {
 }
 .intro,.ama,.location{
   font-family: 'Inconsolata', monospace;
-  font-size: 22px;
+  font-size: 30px;
 }
 .ama {
   margin-top: 10px;
@@ -129,7 +130,6 @@ margin-top: 100px;
 opacity: 0.8;
 color: white;
 display: flex;
-align-items: center;
 justify-content: space-between;
 flex-direction: column;
 }
@@ -180,4 +180,31 @@ flex-direction: column;
 }
 .aboutme-title {
   padding-top: 70px;
+}
+.page-nav {
+  text-align: center;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+}
+.project-tech {
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+
+}
+.span-nav {
+  color: white;
+  font-size: 30px;
+}
+.page-nav2 {
+  padding-top: 100px;
+}
+.nav-link {color: white;}
+.nav-link:hover {color: #d4fd02;}
+.project-image{
+  float: left;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+.project-detail-right {
+  float: right;
 }
