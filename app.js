@@ -29,7 +29,7 @@ $('a[href*="#"]')
  });
  document.addEventListener('DOMContentLoaded', function(){
      Typed.new('.job-title', {
-       strings: ["Full Stack iOS and Web Developer", "Full Stack Developer"],
+       strings: ["Web Developer", "Full Stack Web Developer"],
        typeSpeed: 150
      });
  });
