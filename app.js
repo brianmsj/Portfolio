@@ -27,9 +27,3 @@ $('a[href*="#"]')
      }
    }
  });
- document.addEventListener('DOMContentLoaded', function(){
-     Typed.new('.job-title', {
-       strings: ["Web Developer", "Full Stack Web Developer"],
-       typeSpeed: 150
-     });
- });

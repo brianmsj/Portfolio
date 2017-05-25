@@ -76,7 +76,7 @@ a.fa {
 }
 
 a:link {
-  text-decoration: none !important;
+  text-decoration: none;
   outline: 0;
 }
 
@@ -97,30 +97,30 @@ a:link {
 .highlight:hover {
   opacity: 1;
 }
-#social-footer {
+.social-footer {
   width: 100%;
   text-align: center;
   color: white;
   background-color: black;
 }
 
-#social-footer .social-links {
+.social-footer .social-links {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
 
-#social-footer .social-links,.highlight {
+.social-footer .social-links,.highlight {
   display: inline;
   padding: 0.4em;
 }
 i.fa.fa-github-3x.fa-3x {
   vertical-align: middle;
 }
-#social-footer a {
-  color: white !important;
+.social-footer a {
+  color: white;
 }
-#down {
+.down {
   text-align: center;
   opacity: 0.40;
   cursor: pointer;
@@ -206,7 +206,7 @@ flex-direction: column;
   backface-visibility: hidden;
 }
 
-.middle {
+.live-site {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -215,7 +215,7 @@ flex-direction: column;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-.middle2 {
+.code-repo {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -224,7 +224,7 @@ flex-direction: column;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%)
 }
-.middle3 {
+.swift-image {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -241,13 +241,13 @@ flex-direction: column;
   opacity: 0.3;
 }
 
-.project-image:hover .middle{
+.project-image:hover .live-site{
   opacity: 1;
 }
-.project-image:hover .middle2{
+.project-image:hover .code-repo{
   opacity: 1;
 }
-.project-image2:hover .middle3{
+.project-image2:hover .swift-image{
   opacity: 1;
 }
 
@@ -303,8 +303,8 @@ ul {
     50% { opacity:0; }
     100% { opacity:1; }
 }
-.about2 {
-  padding-bottom: 400px;
+.about-paragraph {
+  padding-bottom: 60px;
   font-size: 24px;
   font-family: 'Inconsolata', monospace;
   text-align: left;
@@ -354,7 +354,7 @@ and (max-width: 1527px) {
   .project-image,.project-image2 {
     padding-left: 60px;
   }
-  .middle,.middle2,.middle3 {
+  .live-site,.code-repo,.swift-image {
     left: 60%
   }
 
