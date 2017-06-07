@@ -1,19 +1,19 @@
-html {
+/*html {
   display: flex;
   background: url(https://photos.smugmug.com/SanJose/i-8GCvXwN/1/XL/Cloudy%20Sunset%20Over%20San%20Jose-XL.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-html:focus {
+}*/
+/*html:focus {
     outline:none;
 }
 body {
   margin: auto;
-  max-width: 70%;
-}
-.name,.intro,.ama,.job-title,.location {
+  max-width: 80%;
+}*/
+/*.name,.intro,.ama,.job-title,.location {
   text-align: center;
   color: white;
 }
@@ -180,7 +180,6 @@ flex-direction: column;
 .project-tech {
   font-family: 'Inconsolata', monospace;
   font-size: 20px;
-  width: 70%;
 
 }
 .span-nav {
@@ -314,13 +313,7 @@ ul {
 .project-image2{
   margin-bottom: 50px;
 }
-.profile-pic {
-  margin: auto;
-  border-radius: 50%;
-  size: 50%;
-  max-width: 20%;
-  max-height: 20%;
-}
+
 
 .bottom-footer {
   color: white;
@@ -341,7 +334,7 @@ ul {
 
 @media only screen
 and (min-width: 520px)
-and (max-width: 1527px) {
+and (max-width: 1727px) {
   .project-tech {
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
@@ -387,4 +380,4 @@ and (max-width: 520px) {
     padding: 8px 16px;
   }
 
-}
+}*/

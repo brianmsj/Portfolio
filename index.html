@@ -4,6 +4,8 @@
  <title>Brian McMinn || FS Developer</title>
  <meta name='Brian McMinn Full Stack Web Developer' content='Brian McMinn is a full stack web developer. His porfolio and biography are in this profile.'>
  <link rel='stylesheet' href='main.css'/>
+ <link rel='stylesheet' href='grid.css'/>
+  <link rel='stylesheet' href='aux.css'/>
  <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
  <script src='https://use.fontawesome.com/1ec80c0d44.js'></script>
@@ -11,8 +13,8 @@
 
 </head>
 <body>
- <header className ='main header'>
-  <section id='home-page' class='top-intro'>
+ <header className ='main header row'>
+  <section id='home-page' class='top-intro col-12'>
    <div class=headings>
    <div>
      <h3 class='intro'>Hello, I'm </h3>
@@ -45,8 +47,8 @@
  </section>
 </header>
 <main>
-  <div id='aboutsection' class='about-me-framework'>
-   <section class='aboutme-container'>
+  <div id='aboutsection' class='about-me-framework row'>
+   <section class='aboutme-container col-12'>
      <h2 class='aboutme-title'> About Me </h2>
      <img src='./images/brian.jpg' class='profile-pic'>
       <p class='about'> I was born and raised in <a href='https://www.google.com/maps/place/Willow+Glen,+San+Jose,+CA/@37.2998917,-121.9446787,13z/data=!3m1!4b1!4m5!3m4!1s0x808e349fe9fcfa03:0x8a27b4690a4f5602!8m2!3d37.3035989!4d-121.8974064'><span>Silicon Valley</span></a> and received a B.S. from <a href='http://www.sjsu.edu'><span>San Jose State University</span></a>
@@ -58,19 +60,31 @@
    <section>
   </div>
  <section class='project-container'id=projects>
+  <div class='projects-title-container row'>
   <h2 class='projects-title'> Projects </h2>
-  <div class=project-item id=virtual-vacay>
-   <div class='project-image'>
-    <img src='./images/virtual-vacay.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
-     <div class='live-site'>
-      <a href='https://calm-shore-18628.herokuapp.com/' class='text'>Live Site</a>
-     </div>
-      <div class='code-repo'>
-      <a href='https://github.com/brianmsj/vacation_app.git' class='text'>Code Repo</a>
-     </div>
+  </div>
+  <div class='project-item row' id=let-it-mow>
+   <div class='project-image col-4'>
+    <img src='http://res.cloudinary.com/dgty4zoyf/image/upload/c_scale,e_auto_contrast,q_100,w_325/v1496763784/Screen_Shot_2017-06-06_at_8.42.24_AM_zwuten.png' class='image' alt='let it mow is an app where people can share yard equipment'>
     </div>
-     <div class='proj-detail-right'>
-      <div class='proj-title'>
+     <div class='proj-detail-right col-8'>
+      <div class='proj-title-left'>
+       <a href='https://let-it-mow.herokuapp.com'><h3 class='project-title-text'>Let It Mow</h3></a>
+        <a href='https://github.com/Jean-Luc19/let-it-mow' class='social-footer'>
+         <i class='fa fa-github fa-3x' aria-hidden='true'></i></a>
+        <h5 class='project-tech'>React | CSS3 | Redux | Node | SocketIo | MongoDB</h5>
+        <h5 class='project-tech'>Let It Mow builds upon the sharing economy by offering a fully featured marketplace where users can find equipment that they need for yard work and rent it out for the day
+           (or the week) instead buying something that they may use once or twice a year.</h5>
+        <h5 class='project-tech'>Team Role: Lead Front End, Limited Backend</h5>
+      </div>
+     </div>
+  </div>
+  <div class='project-item row' id=virtual-vacay>
+    <div class='project-image col-4'>
+     <img src='http://res.cloudinary.com/dgty4zoyf/image/upload/c_scale,q_100,w_325/v1496763583/Screen_Shot_2017-06-06_at_8.38.20_AM_r4a7hi.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
+    </div>
+     <div class='proj-detail-right col-8'>
+      <div class='proj-title-right'>
        <a href='https://calm-shore-18628.herokuapp.com/'><h3 class='project-title-text'>Virtual Vacay</h3></a>
         <a href='https://github.com/brianmsj/vacation_app.git' class='social-footer'>
          <i class='fa fa-github fa-3x' aria-hidden='true'></i></a>
@@ -78,20 +92,14 @@
         <h5 class='project-tech'>An app that allows you to take a virtual vacation to the country of your choice. The app utilizes
           YouTube and SoundCloud API's and Google OAuth 2.0.</h5>
       </div>
-     </div>
+    </div>
   </div>
-  <div class=project-item id=virtual-vacay>
-   <div class='project-image'>
-    <img src='./images/final_periodic.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
-   <div class='live-site'>
-    <a href='http://cryptic-shore-50871.herokuapp.com/login' class='text'>Live Site</a>
-   </div>
-   <div class='code-repo'>
-    <a href='https://github.com/TCHayes/spaced-repetition' class='text'>Code Repo</a>
-   </div>
+  <div class='project-item row' id=virtual-vacay>
+   <div class='project-image col-4'>
+    <img src='http://res.cloudinary.com/dgty4zoyf/image/upload/c_scale,q_100,w_325,h_280/v1496763942/Screen_Shot_2017-06-06_at_8.45.24_AM_dkib7n.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
   </div>
-  <div class='proj-detail-right'>
-   <div class='proj-title'>
+  <div class='proj-detail-right col-8'>
+   <div class='proj-title-left'>
     <a href='http://cryptic-shore-50871.herokuapp.com/login'><h3 class='project-title-text'>Periodic Repetition</h3></a>
     <a href='https://github.com/TCHayes/spaced-repetition' class='social-footer'>
      <i class='fa fa-github fa-3x' aria-hidden='true'></i></a>
@@ -102,15 +110,12 @@
   </div>
   </div>
  </div>
-  <div class=project-item id=virtual-vacay>
-   <div class='project-image2'>
-    <img src='./images/today.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
-   <div class='swift-image'>
-    <a href='https://github.com/brianmsj/Today_App' class='text'>Code Repo</a>
-   </div>
-   </div>
-   <div class='proj-detail-right'>
-    <div class='proj-title'>
+  <div class='project-item row' id=virtual-vacay>
+    <div class='project-image2 col-4'>
+     <img src='./images/today.png' class='image' alt='virtual vacation login page where you can take a virtual vacation'>
+    </div>
+   <div class='proj-detail-right col-8'>
+    <div class='proj-title-right'>
      <h3 class='project-title-text'>Today App</h3>
       <a href='https://github.com/brianmsj/Today_App' class='social-footer'>
        <i class='fa fa-github fa-3x' aria-hidden='true'></i></a>
@@ -122,7 +127,7 @@
   </div>
  </section>
 </main>
-<footer class='bottom-footer'>
+<footer class='bottom-footer row'>
  <h3 class='in-touch'>get in touch</h3>
   <div class='social-footer'>
    <ul class='social-links'>
