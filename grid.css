@@ -22,7 +22,13 @@
     display: flex;
     flex-wrap: wrap;
   }
-
+  .projects-title {
+  font-size: 55px;
+  font-family: 'Inconsolata', monospace;
+  font-style:oblique;
+  font-weight: bold;
+  margin: auto;
+}
 
   [class*="col-"] {
   }
@@ -76,4 +82,11 @@
   .wrapper {
     max-width: 1400px;
   }
+  .projects-title {
+  font-size: 55px;
+  font-family: 'Inconsolata', monospace;
+  font-style:oblique;
+  font-weight: bold;
+  margin: auto;
+}
 }
