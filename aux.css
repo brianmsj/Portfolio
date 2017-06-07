@@ -31,12 +31,12 @@ a:link {
 }
 
 .highlight {
-  opacity: 0.6;
+  opacity: 1;
   display: inline-block;
 }
 
 .highlight:hover {
-  opacity: 1;
+  opacity: 0.6;
 }
 .social-footer {
   width: 100%;
@@ -66,29 +66,32 @@ i.fa.fa-github-3x.fa-3x {
   opacity: 0.40;
   cursor: pointer;
 }
-/*html {
+
+.name,.intro,.ama,.job-title,.location {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+}
+.social-footer.top {
+  background: none;
+}
+
+.top-intro{
+  background-color: black;
+  opacity: 1;
   display: flex;
-  background: url(https://photos.smugmug.com/SanJose/i-8GCvXwN/1/XL/Cloudy%20Sunset%20Over%20San%20Jose-XL.jpg) no-repeat center center fixed;
+  flex-direction: column;
+  background: url(apple.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
-.name,.intro,.ama,.job-title,.location {
-  text-align: center;
-  color: white;
-}
-.name {
-  margin-bottom: 10px;
-  margin-top: 0px;
-  color: #d4fd02;
-}
-.top-intro{
-  background-color: black;
-  opacity: 0.8;
-  display: flex;
-  flex-direction: column;
 
+}
+.intro,.ama {
+  font-family: 'Inconsolata', monospace;
+  font-size: 22px;
+  font-weight: bold;
 }
 .headings {
   align-self: center;
@@ -104,14 +107,40 @@ i.fa.fa-github-3x.fa-3x {
   font-size: 14px
 }
 .job-title,.name,.aboutme-title,.projects-title {
-  font-size: 60px;
-  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  font-family: 'Inconsolata', monospace;
   font-style:oblique;
+  font-weight: bold;
+  margin: auto;
 }
 .projects-title-container {
   background-color: #21b2a6;
   font-weight: bold;
+  height: 200px;
   color: #fff;
+}
+.aboutme-container.col-12 {
+  background-color: #2b343d;
+}
+.aboutme-container {
+  color: #fff;
+  font-family: 'Inconsolata', monospace;
+  font-size: 20px;
+  text-align: center;
+}
+a span {
+  color: #fff;
+}
+a:visited {
+  color: #fff;
+}
+.about,.about-paragraph {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: left;
+}
+.about-paragraph {
+  padding-bottom: 20px;
 }
 .image {
   width: 100%;
@@ -154,5 +183,23 @@ i.fa.fa-github-3x.fa-3x {
   font-family: 'Inconsolata', monospace;
 }
 .fa-github:before {
-  background-color: #2b343d
+  background-color: #2b343d;
+}
+.bottom-footer.row {
+  background-color: #21b2a6;
+  color: #fff;
+}
+
+.social-footer {
+  background-color: #21b2a6;
+}
+a.nav-link {
+  color: white;
+  font-family:'Inconsolata', monospace;
+  font-size: 25px;
+  padding-left: 5px;
+}
+.top-nav {
+  text-align: center;
+  padding-left: 0;
 }
